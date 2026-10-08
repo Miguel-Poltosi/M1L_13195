@@ -1,0 +1,13 @@
+meme_dict = {
+              "MOGAR": "significa = ser superado, ofuscado ou humilhado por alguém que é considerado superior em alguma categoria",
+              "67": "significa = subir e descer a mão igual um maluco",
+              "Bora Bill": "significa = expressão divertida para chamar a atenção de alguém, apressar um amigo, fazer um convite ou simplesmente 'azucrinar' e chatear uma pessoa conhecida."
+}
+
+word = input("Digite uma dessas palavras para saber seu significado: 'MOGAR, 67, Bora Bill'")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+
+else:
+    print("Meme não encontrado!!!!")
